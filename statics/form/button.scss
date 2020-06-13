@@ -1,0 +1,257 @@
+.lpe-landing-page-iframe .lpe-button-wrapper {
+    display: inline
+}
+
+.lpe-landing-page-iframe .lpe-button-wrapper[data-type=button][data-icon-position=space-between] .lpe-button-inline-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.lpe-landing-page-iframe .lpe-button-wrapper[data-type=button] .lpe-button-inline-content {
+    font-size: var(--fontSizedesktop, 14px);
+    line-height: var(--lineHeightdesktop, 20px);
+    letter-spacing: var(--letterSpacingdesktop)
+}
+
+.lpe-landing-page-iframe .lpe-button-wrapper[data-type=button] .lpe-button-inline-content .lpe-icon-button {
+    --fontSizedesktop: 14px;
+    font-size: var(--fontSizedesktop);
+    --marginLeftBlockdesktop: 0px;
+    --marginRightBlockdesktop: 0px;
+    --marginTopBlockdesktop: 0px;
+    --marginBottomBlockdesktop: 0px;
+    margin-left: var(--marginLeftBlockdesktop);
+    margin-right: var(--marginRightBlockdesktop);
+    margin-top: var(--marginTopBlockdesktop);
+    margin-bottom: var(--marginBottomBlockdesktop)
+}
+
+.lpe-landing-page-iframe .lpe-button-wrapper[data-type=button] .lpe-button-inline-content {
+    --lineHeight: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    line-height: var(--lineHeight);
+    max-width: 100%;
+    text-align: center;
+    outline: 0;
+    min-width: fit-content;
+    min-width: -moz-max-content;
+    padding: 10px;
+    box-shadow: var(--boxShadow);
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear
+}
+
+.lpe-landing-page-iframe .lpe-button-wrapper[data-type=button] .lpe-button-inline-content:hover {
+    --hoverBgColordesktop: #93142D;
+    --hoverColordesktop: white;
+    --hoverBorderColordesktop: rgba(204, 154, 129, 0);
+    background-color: var(--hoverBgColordesktop);
+    color: var(--hoverColordesktop);
+    border-color: var(--hoverBorderColordesktop)
+}
+
+.lpe-landing-page-iframe .lpe-button-wrapper[data-type=button] .lpe-button-inline-content {
+    --paddingLeftBlockdesktop: 0px;
+    --paddingRightBlockdesktop: 0px;
+    --paddingTopBlockdesktop: 0px;
+    --paddingBottomBlockdesktop: 0px;
+    --marginLeftBlockdesktop: 0px;
+    --marginRightBlockdesktop: 0px;
+    --marginTopBlockdesktop: 0px;
+    --marginBottomBlockdesktop: 0px;
+    padding-left: var(--paddingLeftBlockdesktop);
+    padding-right: var(--paddingRightBlockdesktop);
+    padding-top: var(--paddingTopBlockdesktop);
+    padding-bottom: var(--paddingBottomBlockdesktop);
+    margin-left: var(--marginLeftBlockdesktop);
+    margin-right: var(--marginRightBlockdesktop);
+    margin-top: var(--marginTopBlockdesktop);
+    margin-bottom: var(--marginBottomBlockdesktop);
+    --borderTopWidthdesktop: 1px;
+    --borderRightWidthdesktop: 1px;
+    --borderBottomWidthdesktop: 1px;
+    --borderLeftWidthdesktop: 1px;
+    --borderTopLeftRadiusdesktop: 4px;
+    --borderTopRightRadiusdesktop: 4px;
+    --borderBottomLeftRadiusdesktop: 4px;
+    --borderBottomRightRadiusdesktop: 4px;
+    --borderStyledesktop: solid;
+    --borderColordesktop: #ccc;
+    border-top-width: var(--borderTopWidthdesktop);
+    border-right-width: var(--borderRightWidthdesktop);
+    border-bottom-width: var(--borderBottomWidthdesktop);
+    border-left-width: var(--borderLeftWidthdesktop);
+    border-style: var(--borderStyledesktop);
+    border-color: var(--borderColordesktop);
+    border-top-left-radius: var(--borderTopLeftRadiusdesktop);
+    border-top-right-radius: var(--borderTopRightRadiusdesktop);
+    border-bottom-left-radius: var(--borderBottomLeftRadiusdesktop);
+    border-bottom-right-radius: var(--borderBottomRightRadiusdesktop);
+    --widthObjectdesktop: 30%;
+    --heightObjectdesktop: 40px;
+    width: var(--widthObjectdesktop);
+    height: var(--heightObjectdesktop);
+    --backgroundColordesktop: #3dbfe8;
+    --colorTextdesktop: white;
+    background-color: var(--backgroundColordesktop);
+    color: var(--colorTextdesktop)
+}
+
+@media (max-width:769px) {
+    .lpe-landing-page-iframe .lpe-button-wrapper[data-type=button] .lpe-button-inline-content {
+        font-size: var(--fontSizetablet, 14px);
+        line-height: var(--lineHeighttablet);
+        letter-spacing: var(--letterSpacingttablet)
+    }
+
+    .lpe-landing-page-iframe .lpe-button-wrapper[data-type=button] .lpe-button-inline-content .lpe-icon-button {
+        --fontSizetablet: 14px;
+        font-size: var(--fontSizetablet);
+        --marginLeftBlocktablet: 0px;
+        --marginRightBlocktablet: 0px;
+        --marginTopBlocktablet: 0px;
+        --marginBottomBlocktablet: 0px;
+        margin-left: var(--marginLeftBlocktablet);
+        margin-right: var(--marginRightBlocktablet);
+        margin-top: var(--marginTopBlocktablet);
+        margin-bottom: var(--marginBottomBlocktablet)
+    }
+
+    .lpe-landing-page-iframe .lpe-button-wrapper[data-type=button] .lpe-button-inline-content {
+        --paddingLeftBlocktablet: 0px;
+        --paddingRightBlocktablet: 0px;
+        --paddingTopBlocktablet: 0px;
+        --paddingBottomBlocktablet: 0px;
+        --marginLeftBlocktablet: 0px;
+        --marginRightBlocktablet: 0px;
+        --marginTopBlocktablet: 0px;
+        --marginBottomBlocktablet: 0px;
+        padding-left: var(--paddingLeftBlocktablet);
+        padding-right: var(--paddingRightBlocktablet);
+        padding-top: var(--paddingTopBlocktablet);
+        padding-bottom: var(--paddingBottomBlocktablet);
+        margin-left: var(--marginLeftBlocktablet);
+        margin-right: var(--marginRightBlocktablet);
+        margin-top: var(--marginTopBlocktablet);
+        margin-bottom: var(--marginBottomBlocktablet);
+        --borderTopWidthtablet: 1px;
+        --borderRightWidthtablet: 1px;
+        --borderBottomWidthtablet: 1px;
+        --borderLeftWidthtablet: 1px;
+        --borderTopLeftRadiustablet: 4px;
+        --borderTopRightRadiustablet: 4px;
+        --borderBottomLeftRadiustablet: 4px;
+        --borderBottomRightRadiustablet: 4px;
+        --borderStyletablet: solid;
+        --borderColortablet: #ccc;
+        border-top-width: var(--borderTopWidthtablet);
+        border-right-width: var(--borderRightWidthtablet);
+        border-bottom-width: var(--borderBottomWidthtablet);
+        border-left-width: var(--borderLeftWidthtablet);
+        border-style: var(--borderStyletablet);
+        border-color: var(--borderColortablet);
+        border-top-left-radius: var(--borderTopLeftRadiustablet);
+        border-top-right-radius: var(--borderTopRightRadiustablet);
+        border-bottom-left-radius: var(--borderBottomLeftRadiustablet);
+        border-bottom-right-radius: var(--borderBottomRightRadiustablet);
+        --widthObjecttablet: 30%;
+        --heightObjecttablet: 40px;
+        width: var(--widthObjecttablet);
+        height: var(--heightObjecttablet);
+        --backgroundColortablet: #3dbfe8;
+        --colorTexttablet: white;
+        background-color: var(--backgroundColortablet);
+        color: var(--colorTexttablet)
+    }
+
+    .lpe-landing-page-iframe .lpe-button-wrapper[data-type=button] .lpe-button-inline-content:hover {
+        --hoverBgColortablet: #93142D;
+        --hoverColortablet: white;
+        --hoverBorderColortablet: rgba(204, 154, 129, 0);
+        background-color: var(--hoverBgColortablet);
+        color: var(--hoverColortablet);
+        border-color: var(--hoverBorderColortablet)
+    }
+}
+
+@media (max-width:576px) {
+    .lpe-landing-page-iframe .lpe-button-wrapper[data-type=button] .lpe-button-inline-content {
+        font-size: var(--fontSizemobile, 14px) !important;
+        line-height: var(--lineHeightmobile) !important;
+        letter-spacing: var(--letterSpacingtmobile) !important
+    }
+
+    .lpe-landing-page-iframe .lpe-button-wrapper[data-type=button] .lpe-button-inline-content .lpe-icon-button {
+        --fontSizemobile: 14px;
+        font-size: var(--fontSizemobile) !important;
+        --marginLeftBlockmobile: 0px;
+        --marginRightBlockmobile: 0px;
+        --marginTopBlockmobile: 0px;
+        --marginBottomBlockmobile: 0px;
+        margin-left: var(--marginLeftBlockmobile) !important;
+        margin-right: var(--marginRightBlockmobile) !important;
+        margin-top: var(--marginTopBlockmobile) !important;
+        margin-bottom: var(--marginBottomBlockmobile) !important
+    }
+
+    .lpe-landing-page-iframe .lpe-button-wrapper[data-type=button] .lpe-button-inline-content {
+        --paddingLeftBlockmobile: 0px;
+        --paddingRightBlockmobile: 0px;
+        --paddingTopBlockmobile: 0px;
+        --paddingBottomBlockmobile: 0px;
+        --marginLeftBlockmobile: 0px;
+        --marginRightBlockmobile: 0px;
+        --marginTopBlockmobile: 0px;
+        --marginBottomBlockmobile: 0px;
+        padding-left: var(--paddingLeftBlockmobile) !important;
+        padding-right: var(--paddingRightBlockmobile) !important;
+        padding-top: var(--paddingTopBlockmobile) !important;
+        padding-bottom: var(--paddingBottomBlockmobile) !important;
+        margin-left: var(--marginLeftBlockmobile) !important;
+        margin-right: var(--marginRightBlockmobile) !important;
+        margin-top: var(--marginTopBlockmobile) !important;
+        margin-bottom: var(--marginBottomBlockmobile) !important;
+        --borderTopWidthmobile: 1px;
+        --borderRightWidthmobile: 1px;
+        --borderBottomWidthmobile: 1px;
+        --borderLeftWidthmobile: 1px;
+        --borderTopLeftRadiusmobile: 4px;
+        --borderTopRightRadiusmobile: 4px;
+        --borderBottomLeftRadiusmobile: 4px;
+        --borderBottomRightRadiusmobile: 4px;
+        --borderStylemobile: solid;
+        --borderColormobile: #ccc;
+        border-top-width: var(--borderTopWidthmobile) !important;
+        border-right-width: var(--borderRightWidthmobile) !important;
+        border-bottom-width: var(--borderBottomWidthmobile) !important;
+        border-left-width: var(--borderLeftWidthmobile) !important;
+        border-style: var(--borderStylemobile) !important;
+        border-color: var(--borderColormobile) !important;
+        border-top-left-radius: var(--borderTopLeftRadiusmobile) !important;
+        border-top-right-radius: var(--borderTopRightRadiusmobile) !important;
+        border-bottom-left-radius: var(--borderBottomLeftRadiusmobile) !important;
+        border-bottom-right-radius: var(--borderBottomRightRadiusmobile) !important;
+        --widthObjectmobile: 30%;
+        --heightObjectmobile: 40px;
+        width: var(--widthObjectmobile) !important;
+        height: var(--heightObjectmobile) !important;
+        --backgroundColormobile: #3dbfe8;
+        --colorTextmobile: white;
+        background-color: var(--backgroundColormobile) !important;
+        color: var(--colorTextmobile) !important
+    }
+
+    .lpe-landing-page-iframe .lpe-button-wrapper[data-type=button] .lpe-button-inline-content:hover {
+        --hoverBgColormobile: #93142D;
+        --hoverColormobile: white;
+        --hoverBorderColormobile: rgba(204, 154, 129, 0);
+        background-color: var(--hoverBgColormobile) !important;
+        color: var(--hoverColormobile) !important;
+        border-color: var(--hoverBorderColormobile) !important
+    }
+}
